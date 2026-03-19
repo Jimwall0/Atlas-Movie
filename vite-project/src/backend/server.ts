@@ -64,4 +64,4 @@ app.post('/auth/logout', (req, res) => {
   res.json({ message: 'Logged out' });
 });
 
-app.listen(4000, () => console.log('Backend running on http://localhost:4000'));
+app.listen(4000, '0.0.0.0', () => console.log('Backend running on http://localhost:4000'));
